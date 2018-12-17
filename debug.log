@@ -1,0 +1,20 @@
+{"name":"hexo","hostname":"liweideMac.local","pid":4642,"level":20,"msg":"Writing database to /Users/liwei/NodejsCode/blog/db.json","time":"2018-12-17T06:40:19.307Z","v":0}
+{"name":"hexo","hostname":"liweideMac.local","pid":4642,"level":20,"msg":"Hexo version: \u001b[35m3.8.0\u001b[39m","time":"2018-12-17T06:40:19.334Z","v":0}
+{"name":"hexo","hostname":"liweideMac.local","pid":4642,"level":20,"msg":"Working directory: \u001b[35m~/NodejsCode/blog/\u001b[39m","time":"2018-12-17T06:40:19.334Z","v":0}
+{"name":"hexo","hostname":"liweideMac.local","pid":4642,"level":20,"msg":"Config loaded: \u001b[35m~/NodejsCode/blog/_config.yml\u001b[39m","time":"2018-12-17T06:40:19.431Z","v":0}
+{"name":"hexo","hostname":"liweideMac.local","pid":4642,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-abbrlink\u001b[39m","time":"2018-12-17T06:40:19.451Z","v":0}
+{"name":"hexo","hostname":"liweideMac.local","pid":4642,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-baidu-url-push\u001b[39m","time":"2018-12-17T06:40:19.451Z","v":0}
+{"name":"hexo","hostname":"liweideMac.local","pid":4642,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-deployer-git\u001b[39m","time":"2018-12-17T06:40:19.467Z","v":0}
+{"name":"hexo","hostname":"liweideMac.local","pid":4642,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-archive\u001b[39m","time":"2018-12-17T06:40:19.470Z","v":0}
+{"name":"hexo","hostname":"liweideMac.local","pid":4642,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-category\u001b[39m","time":"2018-12-17T06:40:19.472Z","v":0}
+{"name":"hexo","hostname":"liweideMac.local","pid":4642,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-index\u001b[39m","time":"2018-12-17T06:40:19.473Z","v":0}
+{"name":"hexo","hostname":"liweideMac.local","pid":4642,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-json-content\u001b[39m","time":"2018-12-17T06:40:19.507Z","v":0}
+{"name":"hexo","hostname":"liweideMac.local","pid":4642,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-search\u001b[39m","time":"2018-12-17T06:40:19.509Z","v":0}
+{"name":"hexo","hostname":"liweideMac.local","pid":4642,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-generator-tag\u001b[39m","time":"2018-12-17T06:40:19.510Z","v":0}
+{"name":"hexo","hostname":"liweideMac.local","pid":4642,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-index-anything\u001b[39m","time":"2018-12-17T06:40:19.521Z","v":0}
+{"name":"hexo","hostname":"liweideMac.local","pid":4642,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-less\u001b[39m","time":"2018-12-17T06:40:19.522Z","v":0}
+{"name":"hexo","hostname":"liweideMac.local","pid":4642,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-ejs\u001b[39m","time":"2018-12-17T06:40:19.525Z","v":0}
+{"name":"hexo","hostname":"liweideMac.local","pid":4642,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-marked\u001b[39m","time":"2018-12-17T06:40:19.529Z","v":0}
+{"name":"hexo","hostname":"liweideMac.local","pid":4642,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-renderer-stylus\u001b[39m","time":"2018-12-17T06:40:19.530Z","v":0}
+{"name":"hexo","hostname":"liweideMac.local","pid":4642,"level":20,"msg":"Plugin loaded: \u001b[35mhexo-server\u001b[39m","time":"2018-12-17T06:40:19.583Z","v":0}
+{"name":"hexo","hostname":"liweideMac.local","pid":4642,"level":20,"msg":"Database saved","time":"2018-12-17T06:40:19.588Z","v":0}

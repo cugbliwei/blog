@@ -15,8 +15,8 @@ timezone: Asia/Shanghai
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://cugbliwei.com
 root: /
-permalink: :year/:month/:day/:title/
-permalink_defaults:
+#permalink: :year/:month/:day/:title/
+#permalink_defaults:
 
 # Directory
 source_dir: source
@@ -39,19 +39,19 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
-  line_number: true
-  auto_detect: false
-  tab_replace:
+    enable: true
+    line_number: true
+    auto_detect: false
+    tab_replace:
   
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
-  per_page: 10
-  order_by: -date
+    path: ''
+    per_page: 10
+    order_by: -date
   
 # Category & Tag
 default_category: uncategorized
@@ -88,7 +88,54 @@ theme: yilia
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: https://github.com/cugbliwei/cugbliwei.github.io.git
-  branch: master
+    type: git
+    repo: https://github.com/cugbliwei/cugbliwei.github.io.git
+    branch: master
 
+jsonContent:
+    meta: false
+    pages: false
+    posts:
+        title: true
+        date: true
+        path: true
+        text: false
+        raw: false
+        content: false
+        slug: false
+        updated: false
+        comments: false
+        link: false
+        permalink: false
+        excerpt: false
+        categories: false
+        tags: true
+
+# abbrlink config
+abbrlink:
+    alg: crc16 #support crc16(default) and crc32
+    rep: hex    #support dec(default) and hex
+
+# 更改 permalink 值
+permalink: p/:abbrlink.html
+
+indexAnything:
+    author: authors
+
+# hexo-admin authentification
+admin:
+    username: liwei
+    password_hash: $2a$10$zsJYj3E/GfdPcgGYh4IbVOO50YP6gg3jA1zed8ekTAXBFUlQihcV.
+    secret: my work and my address
+
+sitemap:
+    path: sitemap.xml
+
+#6、Valine https://valine.js.org
+valine: 
+    appid: 8oc8xy8juzYQgFLVSCufkx0F-gzGzoHsz #Leancloud应用的appId
+    appkey: ToX1CV6ScKjchXp9SIhKFpQg #Leancloud应用的appKey
+    verify: false #验证码
+    notify: true #评论回复提醒
+    avatar: gg #评论列表头像样式：''/mm/identicon/monsterid/wavatar/retro/hide
+    placeholder: Just go go #评论框占位符
